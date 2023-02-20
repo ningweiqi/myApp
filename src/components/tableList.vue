@@ -1,6 +1,6 @@
 <template>
   <div style="padding: 1em;background:#ececec;height:100%;">
-    <h1>测试自动打包构建11111</h1>
+    <h1>测试自动打包构建111</h1>
     <el-button @click="add()" v-track="{eventId:'1101',location:'home'}">添加</el-button>
     <el-table :data="tableList" border style="width: 100%">
       <el-table-column prop="name" label="姓名"></el-table-column>
