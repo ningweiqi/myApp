@@ -5,7 +5,7 @@ let track = Vue.directive('track', {
     bind: (el, binding, vnode) => {
         el.addEventListener('click', () => {
             const data = binding.value;
-
+            debugger;
             // request API
             console.log(data);
 
